@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "/oj1Z57je89FkPh75Icxn3T2WpphumpIAGfrAkqvsTtL4Z++9vALfS5jySlZUc10rrdS2kHrnSpAxRpCHJSPvg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\jerby\\source\\repos\\STB_Everywhere\\STB_Everywhere\\Services\\Agence\\Agence.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jerby\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.19.5\\microsoft.visualstudio.azure.containers.tools.targets.1.19.5.nupkg.sha512"
+  ],
+  "logs": []
+}

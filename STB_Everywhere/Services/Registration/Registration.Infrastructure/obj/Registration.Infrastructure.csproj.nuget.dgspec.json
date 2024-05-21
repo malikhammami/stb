@@ -1,0 +1,221 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\jerby\\source\\repos\\STB_Everywhere\\STB_Everywhere\\Services\\Registration\\Registration.Infrastructure\\Registration.Infrastructure.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\jerby\\source\\repos\\STB_Everywhere\\STB_Everywhere\\Services\\Registration\\Registration.Application\\Registration.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\jerby\\source\\repos\\STB_Everywhere\\STB_Everywhere\\Services\\Registration\\Registration.Application\\Registration.Application.csproj",
+        "projectName": "Registration.Application",
+        "projectPath": "C:\\Users\\jerby\\source\\repos\\STB_Everywhere\\STB_Everywhere\\Services\\Registration\\Registration.Application\\Registration.Application.csproj",
+        "packagesPath": "C:\\Users\\jerby\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jerby\\source\\repos\\STB_Everywhere\\STB_Everywhere\\Services\\Registration\\Registration.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\jerby\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\jerby\\source\\repos\\STB_Everywhere\\STB_Everywhere\\Services\\Registration\\Registration.Domain\\Registration.Domain.csproj": {
+                "projectPath": "C:\\Users\\jerby\\source\\repos\\STB_Everywhere\\STB_Everywhere\\Services\\Registration\\Registration.Domain\\Registration.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.9.0, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[11.9.0, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.1.0, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[6.8.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\jerby\\source\\repos\\STB_Everywhere\\STB_Everywhere\\Services\\Registration\\Registration.Domain\\Registration.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\jerby\\source\\repos\\STB_Everywhere\\STB_Everywhere\\Services\\Registration\\Registration.Domain\\Registration.Domain.csproj",
+        "projectName": "Registration.Domain",
+        "projectPath": "C:\\Users\\jerby\\source\\repos\\STB_Everywhere\\STB_Everywhere\\Services\\Registration\\Registration.Domain\\Registration.Domain.csproj",
+        "packagesPath": "C:\\Users\\jerby\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jerby\\source\\repos\\STB_Everywhere\\STB_Everywhere\\Services\\Registration\\Registration.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\jerby\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\jerby\\source\\repos\\STB_Everywhere\\STB_Everywhere\\Services\\Registration\\Registration.Infrastructure\\Registration.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\jerby\\source\\repos\\STB_Everywhere\\STB_Everywhere\\Services\\Registration\\Registration.Infrastructure\\Registration.Infrastructure.csproj",
+        "projectName": "Registration.Infrastructure",
+        "projectPath": "C:\\Users\\jerby\\source\\repos\\STB_Everywhere\\STB_Everywhere\\Services\\Registration\\Registration.Infrastructure\\Registration.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\jerby\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jerby\\source\\repos\\STB_Everywhere\\STB_Everywhere\\Services\\Registration\\Registration.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\jerby\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\jerby\\source\\repos\\STB_Everywhere\\STB_Everywhere\\Services\\Registration\\Registration.Application\\Registration.Application.csproj": {
+                "projectPath": "C:\\Users\\jerby\\source\\repos\\STB_Everywhere\\STB_Everywhere\\Services\\Registration\\Registration.Application\\Registration.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,98 @@
+version: '3.4'
+
+services:
+
+  registrationapi:
+    environment:
+        - ASPNETCORE_ENVIRONMENT=Development
+        - "ConnectionStrings:ConnectionString=Server=SqlServerDB;Database=STBEverywhereDB;User Id=sa;Password=SwN12345678;TrustServerCertificate=true;"
+        - "ElasticConfiguration:Uri=http://elasticsearch:9200"
+    depends_on:
+        - sqlserverdb
+    restart: always    
+    ports:
+        - "8004:8080"
+  
+        
+  emailapi:
+    environment:
+        - ASPNETCORE_ENVIRONMENT=Development
+        - "ConnectionStrings:ConnectionString=Server=SqlServerDB;Database=STBEverywhereDB;User Id=sa;Password=SwN12345678;TrustServerCertificate=true;"
+        - "ElasticConfiguration:Uri=http://elasticsearch:9200"
+    restart: always    
+    ports:
+        - "8005:8080"
+ 
+        
+  smsserviceapi:
+    environment:
+        - ASPNETCORE_ENVIRONMENT=Development
+        - "ElasticConfiguration:Uri=http://elasticsearch:9200"
+    restart: always    
+    ports:
+        - "8006:8080"
+    
+  
+
+
+  sqlserverdb:
+    container_name: SqlServerDB
+    environment:
+        MSSQL_SA_PASSWORD: "SwN12345678"
+        ACCEPT_EULA: "Y"
+    restart: always
+    ports:
+        - "1434:1433"
+
+
+  rabbitmq:
+    container_name: RabbitMQ
+    restart: always
+    ports:
+        - "5672:5672"
+        - "15672:15672"
+
+
+  elasticsearch:
+    container_name: elasticsearch
+    restart: always
+    environment:
+        - xpack.monitoring.collection.enabled
+        - xpack.watcher.enabled=false
+        - xpack.security.enabled=false
+        - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
+        - discovery.type=single-node
+    ports:
+        - "9200:9200"
+    volumes:
+        - elasticsearch-data:/usr/share/elasticsearch/data   
+
+
+  kibana:
+    container_name: kibana
+    restart: always
+    environment:        
+        - ELASTICSEARCH_URL=http://elasticsearch:9200
+    depends_on:
+        - elasticsearch
+    ports:
+        - "5601:5601"
+    
+   
+
+ 
+
+  healthcheck:
+    container_name: healthcheck
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - HealthChecksUI__HealthChecks__0__Name=Registration Health Check
+      - HealthChecksUI__HealthChecks__0__Uri=http://host.docker.internal:8004/hc
+      - HealthChecksUI__HealthChecks__1__Name=Email Health Check
+      - HealthChecksUI__HealthChecks__1__Uri=http://host.docker.internal:8005/hc
+      - HealthChecksUI__HealthChecks__2__Name=SMS Health Check
+      - HealthChecksUI__HealthChecks__2__Uri=http://host.docker.internal:8006/hc
+    ports:
+      - "8020:8080"
+    
+      

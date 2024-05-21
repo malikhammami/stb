@@ -1,0 +1,12 @@
+C:\Users\jerby\source\repos\STB_Everywhere\STB_Everywhere\Services\Registration\Registration.Domain\bin\Debug\net8.0\Registration.Domain.deps.json
+C:\Users\jerby\source\repos\STB_Everywhere\STB_Everywhere\Services\Registration\Registration.Domain\bin\Debug\net8.0\Registration.Domain.dll
+C:\Users\jerby\source\repos\STB_Everywhere\STB_Everywhere\Services\Registration\Registration.Domain\bin\Debug\net8.0\Registration.Domain.pdb
+C:\Users\jerby\source\repos\STB_Everywhere\STB_Everywhere\Services\Registration\Registration.Domain\obj\Debug\net8.0\Registration.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jerby\source\repos\STB_Everywhere\STB_Everywhere\Services\Registration\Registration.Domain\obj\Debug\net8.0\Registration.Domain.AssemblyInfoInputs.cache
+C:\Users\jerby\source\repos\STB_Everywhere\STB_Everywhere\Services\Registration\Registration.Domain\obj\Debug\net8.0\Registration.Domain.AssemblyInfo.cs
+C:\Users\jerby\source\repos\STB_Everywhere\STB_Everywhere\Services\Registration\Registration.Domain\obj\Debug\net8.0\Registration.Domain.csproj.CoreCompileInputs.cache
+C:\Users\jerby\source\repos\STB_Everywhere\STB_Everywhere\Services\Registration\Registration.Domain\obj\Debug\net8.0\Registration.Domain.sourcelink.json
+C:\Users\jerby\source\repos\STB_Everywhere\STB_Everywhere\Services\Registration\Registration.Domain\obj\Debug\net8.0\Registration.Domain.dll
+C:\Users\jerby\source\repos\STB_Everywhere\STB_Everywhere\Services\Registration\Registration.Domain\obj\Debug\net8.0\refint\Registration.Domain.dll
+C:\Users\jerby\source\repos\STB_Everywhere\STB_Everywhere\Services\Registration\Registration.Domain\obj\Debug\net8.0\Registration.Domain.pdb
+C:\Users\jerby\source\repos\STB_Everywhere\STB_Everywhere\Services\Registration\Registration.Domain\obj\Debug\net8.0\ref\Registration.Domain.dll

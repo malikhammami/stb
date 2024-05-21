@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "AiFkinbzKsq5+46diYAPgfrEImmDKtRnIxjtd+EsFnTVReeJJyp5cuS2qIo5uUOg7M3nomaUqLxUgIrosenYbA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\jerby\\source\\repos\\STB_Everywhere\\STB_Everywhere\\BuildingBlocks\\CQRS\\CQRS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jerby\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
+    "C:\\Users\\jerby\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\jerby\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

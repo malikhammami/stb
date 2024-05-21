@@ -1,0 +1,16 @@
+C:\Users\jerby\source\repos\STB_Everywhere\STB_Everywhere\Services\Registration\Registration.Application\bin\Debug\net8.0\Registration.Application.deps.json
+C:\Users\jerby\source\repos\STB_Everywhere\STB_Everywhere\Services\Registration\Registration.Application\bin\Debug\net8.0\Registration.Application.dll
+C:\Users\jerby\source\repos\STB_Everywhere\STB_Everywhere\Services\Registration\Registration.Application\bin\Debug\net8.0\Registration.Application.pdb
+C:\Users\jerby\source\repos\STB_Everywhere\STB_Everywhere\Services\Registration\Registration.Application\bin\Debug\net8.0\Registration.Domain.dll
+C:\Users\jerby\source\repos\STB_Everywhere\STB_Everywhere\Services\Registration\Registration.Application\bin\Debug\net8.0\Registration.Domain.pdb
+C:\Users\jerby\source\repos\STB_Everywhere\STB_Everywhere\Services\Registration\Registration.Application\obj\Debug\net8.0\Registration.Application.csproj.AssemblyReference.cache
+C:\Users\jerby\source\repos\STB_Everywhere\STB_Everywhere\Services\Registration\Registration.Application\obj\Debug\net8.0\Registration.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jerby\source\repos\STB_Everywhere\STB_Everywhere\Services\Registration\Registration.Application\obj\Debug\net8.0\Registration.Application.AssemblyInfoInputs.cache
+C:\Users\jerby\source\repos\STB_Everywhere\STB_Everywhere\Services\Registration\Registration.Application\obj\Debug\net8.0\Registration.Application.AssemblyInfo.cs
+C:\Users\jerby\source\repos\STB_Everywhere\STB_Everywhere\Services\Registration\Registration.Application\obj\Debug\net8.0\Registration.Application.csproj.CoreCompileInputs.cache
+C:\Users\jerby\source\repos\STB_Everywhere\STB_Everywhere\Services\Registration\Registration.Application\obj\Debug\net8.0\Registration.Application.sourcelink.json
+C:\Users\jerby\source\repos\STB_Everywhere\STB_Everywhere\Services\Registration\Registration.Application\obj\Debug\net8.0\Registration.Application.csproj.CopyComplete
+C:\Users\jerby\source\repos\STB_Everywhere\STB_Everywhere\Services\Registration\Registration.Application\obj\Debug\net8.0\Registration.Application.dll
+C:\Users\jerby\source\repos\STB_Everywhere\STB_Everywhere\Services\Registration\Registration.Application\obj\Debug\net8.0\refint\Registration.Application.dll
+C:\Users\jerby\source\repos\STB_Everywhere\STB_Everywhere\Services\Registration\Registration.Application\obj\Debug\net8.0\Registration.Application.pdb
+C:\Users\jerby\source\repos\STB_Everywhere\STB_Everywhere\Services\Registration\Registration.Application\obj\Debug\net8.0\ref\Registration.Application.dll
